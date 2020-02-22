@@ -3,9 +3,6 @@ const axios = require("axios");
 const fs = require('fs');
 const util = require("util");
 const writeFileAsync = util.promisify(fs.writeFile);
-let  readMe;
-
-
 
 function promptUser() {
     return inquirer.prompt([
@@ -65,7 +62,6 @@ function promptUser() {
 
 ]);
 }
-
 
 function generateReadMe (response,answers,link) {
  return `
