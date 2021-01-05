@@ -4,7 +4,7 @@
   "description": "![License]([![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0))\r  ## Description\r   Project takes in user info to create a readme for whatever project the user is creating",
   "main": "index.js",
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "fs": "^0.0.1-security",
     "inquirer": "^7.0.4",
     "util": "^0.12.1"
